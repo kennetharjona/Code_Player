@@ -1,0 +1,105 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #242438;
+    color: #ffffff;
+}
+
+/* Container */
+#container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* Title Bar */
+#titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3f3f66;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+#title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+/* Run Button */
+#run {
+    background: #ff9900;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#run:hover {
+    background: #00bcd4;
+}
+
+/* Tabs */
+#tabs {
+    margin-top: 20px;
+}
+
+.ui-tabs .ui-tabs-nav {
+    background: #3f3f66;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    background: transparent;
+    border: none;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #00ffcc;
+}
+
+/* Code Containers */
+.codecontainer {
+    padding: 20px;
+    background: #41416b;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Textarea */
+.code {
+    width: 100%;
+    height: 350px;
+    background: #242438;
+    color: #00ffcc;
+    border: none;
+    resize: none;
+    font-family: 'Consolas', monospace;
+    font-size: 14px;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Result Frame */
+.resultContainer {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#resultFrame {
+    width: 100%;
+    height: 350px;
+    border: none;
+}
